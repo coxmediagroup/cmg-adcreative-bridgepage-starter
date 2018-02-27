@@ -1,4 +1,4 @@
-# cmg-adcreative-tools
+# adcreative-bridgepage-starter
 
 <h4>This is a HTML Bridgepage Starter</h4>
 <p>This starter includes Jquery, Bootstrap, Plyr.js, and Font Awesome. It includes Social Meta tags and Google analytics script tags.
