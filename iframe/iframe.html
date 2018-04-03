@@ -1,0 +1,13 @@
+
+<div>
+<iframe id="cmg_pcs_iframe" src="https://adcreative.cmgdigital.com/bridgepages/45000s/45005_project_paws/#/" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+<script>
+window.addEventListener('message', function(e) {
+	if (e !== null && e['data'] != null) {
+		if (e.data.indexOf('pcsResizeY=') == 0) {
+			document.getElementById('cmg_pcs_iframe').style.height = parseInt(e.data.substr(e.data.indexOf('=')+1))+ 'px';
+		}
+	}
+});
+</script>
+</div>

@@ -1,0 +1,25 @@
+
+.container{
+    max-width: 930px;
+}
+.no-g {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cog-one {
+    color: dodgerblue;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.form-control {
+    border-radius: 0;
+    height: 55px;
+    border: solid black 2px;
+}
+.form-group label {
+    color: black;
+    font-size: 1.8em;
+    font-weight: 200;
+}
